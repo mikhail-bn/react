@@ -15,15 +15,15 @@ export  const ways = [
       'Order QA services when you need them, make a pause and get back again when required. We are ready to adjust to your project timeline.',
   },
   {
-    title: 'Наши преподаватели ведущие специалисты',
+    title: 'MEET THE MARKET. ',
     description:
-      'VK, Avito, Тинькофф, Kaspersky — действующие разработчики с опытом преподавания для большой аудитории.',
+      'We provide software QA and testing services with one thing in mind – your success.',
   },
 ]
 
 export const differences = {
-  way: 'Узконаправленный подход. Учим только фронтенду, поэтому вы получаете именно те знания, за которыми пришли.',
-  easy: 'Доступность обучения. Простыми словами объясняем сложные темы на понятных примерах.',
+  way: 'The Test Automation Suite runs nightly providing daily metrics, QATestLab  has significantly improved our productivity and...',
+  easy: 'Our collaboration with the QATestLab team started with testing of the website dedicated to pharmaceuticals. The testers perf ...',
   program:
-    'Концентрация знаний. Например, модуль «HTML&CSS» даст вам столько же умений и навыков, как и 6 месяцев обучения по этой программе в госуниверситете.',
+    "The quality of your team is very good. You deliver the relatories in a very clear format, and your team don't need much time ...",
 }
