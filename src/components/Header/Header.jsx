@@ -1,8 +1,9 @@
 //Компонент Header
 import logo from '/public/react-logo-text.svg'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 //import './Header.css'
 import { styled } from 'styled-components'
+
 
 const HeaderContainer = styled.header`
     height: 50px;
@@ -15,13 +16,14 @@ const HeaderContainer = styled.header`
 `
 
 export default function Header() {
-
-
-    // State для динамики времени - массив переменной now и условие её изменения setNow
-    const [now, setNow] = useState(new Date())
     
-    // Изменять значение переменной now через секунду переменную
-    setInterval(() => setNow(new Date()), 1000)
+    const [now, setNow] = useState(new Date())
+    useEffect(() => {
+      const interval = setInterval(() => setNow(new Date()), 1000)
+      return () => {
+        clearInterval(interval)
+      }     
+    }, [])   
 
 
     return (
