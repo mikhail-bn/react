@@ -31,13 +31,13 @@ export default function Differences () {
                   // Проверка: если contentType==='way', то isActive - true и в кнопке присвоится класс active
                   isActive={contentType==='way'}
                   // Событие при нажатии - колбек для изменения типа ключа контента 
-                  onClickToButton={() => handleClick('way')}>Aproach</Button>
+                  onClick={() => handleClick('way')}>Aproach</Button>
           <Button 
                   isActive={contentType==='easy'} 
-                  onClickToButton={() => handleClick('easy')}>Functionality</Button>
+                  onClick={() => handleClick('easy')}>Functionality</Button>
           <Button 
                   isActive={contentType==='program'} 
-                  onClickToButton={() => handleClick('program')}>Prediction</Button>
+                  onClick={() => handleClick('program')}>Prediction</Button>
 
           {/* Контентная часть */}
 

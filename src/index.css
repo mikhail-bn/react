@@ -6,16 +6,9 @@
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
-  overflow: hidden;
-}
 
-html > body > #root {
-  height: 100%;
-  position: relative;
-  overflow: auto;
-}
+
+
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -49,6 +42,7 @@ section ul li {
 .content,
 p {
   padding: 1rem;
+  margin-bottom: 10px;
 }
 
 .centered {

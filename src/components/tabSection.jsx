@@ -5,10 +5,13 @@ export default function TabSection({active, onChange}) {
         <section style={{marginBottom: '2rem'}}>
             <Button
                 isActive={active === 'main'}
-                onClickToButton={() => onChange('main')}>Home</Button>
+                onClick={() => onChange('main')}>Home</Button>
             <Button
                 isActive={active === 'feedback'}
-                onClickToButton={() => onChange('feedback')}>Contact Us</Button>
+                onClick={() => onChange('feedback')}>Contact Us</Button>
+            <Button
+                isActive={active === 'effect'}
+                onClick={() => onChange('effect')}>Effect</Button>
         </section>
     )
 }

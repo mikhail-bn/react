@@ -12,7 +12,13 @@
 .button:hover {
     opacity: 0.6;
 }
+
+.button:disabled {
+    cursor: not-allowed;
+}
+
 .button.active {
     background: #3e6a3e;
     color: #fff;
 }
+
